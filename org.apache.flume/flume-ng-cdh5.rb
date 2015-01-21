@@ -1,6 +1,6 @@
 require 'formula'
 
-class FlumeNg < Formula
+class FlumeNgCdh5 < Formula
   homepage 'https://github.com/apache/flume'
   url 'http://archive.cloudera.com/cdh5/cdh/5/flume-ng-1.5.0-cdh5.3.0.tar.gz'
   version "1.5.0-cdh5.3.0"
