@@ -7,7 +7,6 @@ class FlumeNgCdh5 < Formula
   sha1 'a5259be8aea2ac01655183ca999daf23c61c42fc'
 
   def install
-    system "mvn", "compile"
     libexec.install %w[bin conf lib]
     (bin/"flume-ng").write <<-EOS.undent
       #!/bin/bash
